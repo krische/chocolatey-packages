@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>python-ldap</id>
+    <title>python-ldap</title>
+    <version>2.4.13</version>
+    <authors>python-ldap project</authors>
+    <owners>krische</owners>
+    <summary>python-ldap</summary>
+    <description>python-ldap provides an object-oriented API to access LDAP directory servers from Python programs. Mainly it wraps the OpenLDAP 2.x libs for that purpose. Additionally the package contains modules for other LDAP-related stuff (e.g. processing LDIF, LDAPURLs, LDAPv3 schema, LDAPv3 extended operations and controls, etc.).</description>
+    <projectUrl>http://www.python-ldap.org/</projectUrl>
+    <tags>python-ldap admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.python-ldap.org/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/krische/chocolatey-packages/master/python-ldap/python-logo.png</iconUrl>
+    <dependencies>
+      <dependency id="python.x86" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
